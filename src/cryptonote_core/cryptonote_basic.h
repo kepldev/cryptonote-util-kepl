@@ -456,7 +456,7 @@ namespace cryptonote
 
     BEGIN_SERIALIZE()
       VARINT_FIELD(major_version)
-    // if(major_version > BLOCK_MAJOR_VERSION_4) return false;
+    if(major_version > BLOCK_MAJOR_VERSION_5) return false;
       VARINT_FIELD(minor_version)
     if (major_version < BLOCK_MAJOR_VERSION_3 || minor_version == BLOCK_MINOR_VERSION_1)
       {

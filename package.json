@@ -1,15 +1,15 @@
 {
-  "name": "cryptonote-util",
-  "version": "0.0.1",
+  "name": "cryptonote-util-kepl",
+  "version": "0.0.2",
   "main": "cryptonote",
   "gypfile": true,
   "author": {
-    "name": "LucasJones",
-    "email": "lucasjonesdev@hotmail.co.uk"
+    "name": "KEPL Developers",
+    "email": "contact@kepl.org"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LucasJones/node-cryptonote-util.git"
+    "url": "https://github.com/kepldev/cryptonote-util-kepl"
   },
   "scripts": {
     "test": "node-gyp clean && node-gyp configure && node-gyp build",
@@ -27,10 +27,10 @@
   "readmeFilename": "README.md",
   "description": "Node-Cryptonote-Util ====================",
   "bugs": {
-    "url": "https://github.com/LucasJones/node-cryptonote-util/issues"
+    "url": "https://github.com/kepldev/cryptonote-util-kepl/issues"
   },
-  "homepage": "https://github.com/LucasJones/node-cryptonote-util",
-  "_id": "cryptonote-util@0.0.1",
+  "homepage": "https://github.com/kepldev/cryptonote-util-kepl",
+  "_id": "cryptonote-util-kepl@0.0.2",
   "dist": {
     "shasum": "91d4f847bb1e239c047b79bc574fd3bdfd0b9b8e"
   },
